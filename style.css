@@ -1,0 +1,115 @@
+
+
+.header .nav .nav-list li {
+    list-style-type: none;
+    display: inline;
+    margin: 0 10px;
+
+
+
+}
+
+.nav-list {
+    text-align: center;
+}
+
+.header .nav .nav-list li a {
+
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+
+
+}
+
+.nav {
+    background-color: purple;
+    padding: 10px 0;
+    /*makes it visible*/
+    border: 2px solid black;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1000;
+    
+
+}
+
+.header .nav .nav-list li a:hover {
+    background-color: white;
+    color: purple;
+    border-radius: 5px;
+}
+
+.main {
+    background-color: green;
+    height: 80vh;
+    margin: 100px 4px 4px 4px;
+    border: 2px solid black;
+}
+
+.main .div1 {
+    background-color: lightcoral;
+    height: 60%;
+    width: 270px;
+    display: inline-block;
+    margin-right: 92px;
+
+
+}
+
+.main .div2 {
+    background-color: lightblue;
+    height: 60%;
+    width: 270px;
+    display: inline-block;
+    margin-left: 250px;
+}
+
+.div1,
+.div2 {
+    position: relative;
+    top: 62px;
+    left: 150px;
+}
+
+.div3{
+    color: black;
+    background-color: lightgray;
+    width: 80%;
+    height: 100px;
+    margin: 30px auto;
+    border: 2px solid black;
+    border-radius: 15px;
+    text-align: center;
+    font-weight: bold;
+    padding: 38px 0px;
+    box-sizing: border-box;
+}
+
+.logo{
+    background-color: red;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    float: right;
+    margin-right: 20px;
+    position: fixed;
+    bottom: 32px;
+    right: 4px;
+}
+
+footer{
+    background-color: purple;
+    border: 2px solid black;
+    height: 40vh;
+    width: 99%;
+    margin: auto;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 100px 0;
+    box-sizing: border-box;
+}
+
+
